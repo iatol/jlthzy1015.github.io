@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jlthzy.cc/"/>
-  <updated>2020-04-10T14:37:08.503Z</updated>
+  <updated>2020-04-10T14:49:31.853Z</updated>
   <id>https://jlthzy.cc/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>x光肺炎影像分类</title>
-    <link href="https://jlthzy.cc/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%BD%B1%E5%83%8F%E5%88%86%E7%B1%BB/"/>
-    <id>https://jlthzy.cc/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%BD%B1%E5%83%8F%E5%88%86%E7%B1%BB/</id>
-    <published>2020-04-10T06:42:08.903Z</published>
-    <updated>2020-04-10T14:37:08.503Z</updated>
+    <title>x光肺炎多分类</title>
+    <link href="https://jlthzy.cc/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%A4%9A%E5%88%86%E7%B1%BB/"/>
+    <id>https://jlthzy.cc/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%A4%9A%E5%88%86%E7%B1%BB/</id>
+    <published>2020-04-10T14:42:38.676Z</published>
+    <updated>2020-04-10T14:49:31.853Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,15 @@
       
         
         
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+          &lt;h3 id=&quot;1-写在前面&quot;&gt;&lt;a href=&quot;#1-写在前面&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+    
+      <category term="learn" scheme="https://jlthzy.cc/tags/learn/"/>
     
   </entry>
   
@@ -44,7 +46,7 @@
     <link href="https://jlthzy.cc/2020/04/09/NLP_week1/"/>
     <id>https://jlthzy.cc/2020/04/09/NLP_week1/</id>
     <published>2020-04-09T10:08:20.688Z</published>
-    <updated>2020-04-09T10:11:51.542Z</updated>
+    <updated>2020-04-10T14:49:56.049Z</updated>
     
     <summary type="html">
     
@@ -53,7 +55,7 @@
         
         
           &lt;p&gt;NLP课程week1实验&lt;/p&gt;
-&lt;h2 id=&quot;总述&quot;&gt;&lt;a href=&quot;#总述&quot; class=&quot;headerlink&quot; title=&quot;总述&quot;&gt;&lt;/a&gt;总述&lt;/h2&gt;&lt;h4 id=&quot;PS-代码写得比较散-封装一下会好看些嘿嘿&quot;&gt;&lt;a
+&lt;h3 id=&quot;总述&quot;&gt;&lt;a href=&quot;#总述&quot; class=&quot;headerlink&quot; title=&quot;总述&quot;&gt;&lt;/a&gt;总述&lt;/h3&gt;&lt;h4 id=&quot;PS-代码写得比较散-封装一下会好看些嘿嘿&quot;&gt;&lt;a
         
       
     
