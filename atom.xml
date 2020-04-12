@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-04-10T14:49:31.853Z</updated>
+  <updated>2020-04-12T10:59:32.854Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NLP_week2</title>
+    <link href="https://leohu.me/2020/04/12/NLP_week2/"/>
+    <id>https://leohu.me/2020/04/12/NLP_week2/</id>
+    <published>2020-04-12T10:57:52.963Z</published>
+    <updated>2020-04-12T10:59:32.854Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-总述&quot;&gt;&lt;a href=&quot;#1-总述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
+    
+  </entry>
   
   <entry>
     <title>x光肺炎多分类</title>
