@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-04-16T00:48:04.934Z</updated>
+  <updated>2020-04-16T10:40:32.632Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于隐马尔科夫（HMM）模型的中文分词</title>
+    <link href="https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/"/>
+    <id>https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/</id>
+    <published>2020-04-16T10:38:33.066Z</published>
+    <updated>2020-04-16T10:40:32.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-几个名词&quot;&gt;&lt;a href=&quot;#1-几个名词&quot; class=&quot;headerlink&quot; title=&quot;1.几个名词&quot;&gt;&lt;/a&gt;1.几个名词&lt;/h3&gt;&lt;p&gt;泛化能力：是指机器学习算法对新鲜样本的适应能力&lt;/p&gt;
+&lt;h3 id=&quot;2-简介&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Block Chain &amp; Bitcoin week2</title>
+    <link href="https://leohu.me/2020/04/16/Block%20Chain%20&amp;%20Bircoin%20week2/"/>
+    <id>https://leohu.me/2020/04/16/Block%20Chain%20&amp;%20Bircoin%20week2/</id>
+    <published>2020-04-16T10:37:04.010Z</published>
+    <updated>2020-04-16T10:38:06.766Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;代码写完了&quot;&gt;&lt;a href=&quot;#代码写完了&quot; class=&quot;headerlink&quot; title=&quot;代码写完了&quot;&gt;&lt;/a&gt;代码写完了&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
+    
+  </entry>
   
   <entry>
     <title>Trojan Web控制面板</title>
