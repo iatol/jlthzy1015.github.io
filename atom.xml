@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-04-12T10:59:32.854Z</updated>
+  <updated>2020-04-16T00:48:04.934Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Trojan Web控制面板</title>
+    <link href="https://leohu.me/2020/04/16/Trojan_web/"/>
+    <id>https://leohu.me/2020/04/16/Trojan_web/</id>
+    <published>2020-04-16T00:46:09.219Z</published>
+    <updated>2020-04-16T00:48:04.934Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-简介&quot;&gt;&lt;a href=&quot;#1-简介&quot; class=&quot;headerlink&quot; title=&quot;1.简介&quot;&gt;&lt;/a&gt;1.简介&lt;/h3&gt;&lt;p&gt;1.1 多用户管理&lt;br&gt;1.2 可视化Web界面&lt;br&gt;1.3 证书自动签发部署&lt;br&gt;1.4
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="see the world" scheme="https://leohu.me/tags/see-the-world/"/>
+    
+  </entry>
   
   <entry>
     <title>NLP_week2</title>
