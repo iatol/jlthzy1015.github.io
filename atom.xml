@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-04-17T08:28:55.505Z</updated>
+  <updated>2020-04-17T08:30:47.329Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
     <id>https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/</id>
     <published>2020-04-17T08:28:12.870Z</published>
-    <updated>2020-04-17T08:28:55.505Z</updated>
+    <updated>2020-04-17T08:30:47.329Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,8 @@
     </summary>
     
     
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
     
   </entry>
   
