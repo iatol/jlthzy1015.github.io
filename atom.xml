@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-04-16T10:40:32.632Z</updated>
+  <updated>2020-04-17T08:28:55.505Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次在服务器上部署jupyter notebook的经历</title>
+    <link href="https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
+    <id>https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/</id>
+    <published>2020-04-17T08:28:12.870Z</published>
+    <updated>2020-04-17T08:28:55.505Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-安装Miniconda&quot;&gt;&lt;a href=&quot;#1-安装Miniconda&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>基于隐马尔科夫（HMM）模型的中文分词</title>
