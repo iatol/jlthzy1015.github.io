@@ -1,0 +1,175 @@
+<!DOCTYPE html><html lang="zh-CN"><!--
+             -. .                                        
+       _____   ',' ,                                    
+     ,'     ,'   ', ',                                  
+   ,'     ,'      |  |                                  
+   \       \       |  |                                  
+     \ /^\   \    ,' ,'                                  
+           \   \ ,' ,'      L'Internationale,            
+     / ~-.___\.-'  ,'            Sera le genre humain.   
+   /   .______.- ~ \                                     
+ /   /'          \   \                                   
+ \./               \/'                                   
+                                                         
+--><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Jlthzy"><title>NLP_week3 · Jlthzy's Blog</title><meta name="description" content="1.准备这周的实验主要是依存句法分析。个人以为难点应该在于分析正确率，这个可真难。前两周主要用到了jieba分词和snownlp，对hanlp以及standfordnlp不会太熟悉。老实说装这两个玩意儿废了不少力气，主要是要配置java环境。我原本以为上学期移动计算课程结束后，就不会再有java课程"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style-dark.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/valine.min.js"></script><meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><span class="donate-address">唯一指定邮箱：Jlthzy123@gmail.com</span><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">当我拥着光亮 ⭐ 环着希望</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">就是这样 </a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/archives/index.html"></a></li><li><a href="/abouts/index.html">关于</a></li><li><a href="/categories/index.html"></a></li><li><a href="/book/index.html">书籍</a></li><li><a href="/tags/index.html"></a></li><li class="soc"><a href="https://github.com/jlthzy1015" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a><a href="https://twitter.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp;</i></a><a href="https://www.instagram.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><h1 class="post-title">NLP_week3</h1><p class="post-meta"><span class="date meta-item">发布于&nbsp;2020-04-23</span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a href="/tags/learn/" title="learn" class="a-tag">learn</a><span>&nbsp;</span></span></p><p class="post-abstract"><h3 id="1-准备"><a href="#1-准备" class="headerlink" title="1.准备"></a>1.准备</h3><p>这周的实验主要是依存句法分析。个人以为难点应该在于分析正确率，这个可真难。前两周主要用到了jieba分词和snownlp，对hanlp以及standfordnlp不会太熟悉。老实说装这两个玩意儿废了不少力气，主要是要配置java环境。我原本以为上学期移动计算课程结束后，就不会再有java课程，于是开开心心卸载了androidstudio和jdk。谁知道，这学期区块链和NLP课都要java，我晕！</p>
+<h3 id="2-知识点"><a href="#2-知识点" class="headerlink" title="2.知识点"></a>2.知识点</h3><h5 id="2-1-价动词"><a href="#2-1-价动词" class="headerlink" title="2.1 价动词"></a>2.1 价动词</h5><p>一个动词所能支配的行动元（名词词组）的个数即为该动词的价数</p>
+<blockquote>
+<p><strong>零价</strong>：地震、刮风</p>
+<p><strong>一价</strong>：大部分是不及物动词，如“游泳”（eg：他游泳）只跟了“他”这一个论元</p>
+<p><strong>二价</strong>:爱、吃、唱等（eg：”我爱你“中的“爱”跟了“我”和“你”）</p>
+<p><strong>三价</strong>：给、打等（eg：”他给了我一本书“中的”给“跟了”他“、”我“以及”书“）</p>
+</blockquote>
+<h5 id="2-2-依存"><a href="#2-2-依存" class="headerlink" title="2.2 依存"></a>2.2 依存</h5><p><strong>概念</strong>：指词与词之间的支配与被支配的关系。处于支配地位的成分称为支配者，出于被支配地位的成分成为从属者。</p>
+<p><strong>LTP使用的14种汉语依存关系</strong></p>
+<table>
+<thead>
+<tr>
+<th>关系类型</th>
+<th>Tag</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>主谓关系</td>
+<td>SBV</td>
+<td>subject-verb</td>
+<td>我送她一束花 (我 &lt;– 送)</td>
+</tr>
+<tr>
+<td>动宾关系</td>
+<td>VOB</td>
+<td>直接宾语，verb-object</td>
+<td>我送她一束花 (送 –&gt; 花)</td>
+</tr>
+<tr>
+<td>间宾关系</td>
+<td>IOB</td>
+<td>间接宾语，indirect-object</td>
+<td>我送她一束花 (送 –&gt; 她)</td>
+</tr>
+<tr>
+<td>前置宾语</td>
+<td>FOB</td>
+<td>前置宾语，fronting-object</td>
+<td>他什么书都读 (书 &lt;– 读)</td>
+</tr>
+<tr>
+<td>兼语</td>
+<td>DBL</td>
+<td>double</td>
+<td>他请我吃饭 (请 –&gt; 我)</td>
+</tr>
+<tr>
+<td>定中关系</td>
+<td>ATT</td>
+<td>attribute</td>
+<td>红苹果 (红 &lt;– 苹果)</td>
+</tr>
+<tr>
+<td>状中结构</td>
+<td>ADV</td>
+<td>adverbial</td>
+<td>非常美丽 (非常 &lt;– 美丽)</td>
+</tr>
+<tr>
+<td>动补结构</td>
+<td>CMP</td>
+<td>complement</td>
+<td>做完了作业 (做 –&gt; 完)</td>
+</tr>
+<tr>
+<td>并列关系</td>
+<td>COO</td>
+<td>coordinate</td>
+<td>大山和大海 (大山 –&gt; 大海)</td>
+</tr>
+<tr>
+<td>介宾关系</td>
+<td>POB</td>
+<td>preposition-object</td>
+<td>在贸易区内 (在 –&gt; 内)</td>
+</tr>
+<tr>
+<td>左附加关系</td>
+<td>LAD</td>
+<td>left adjunct</td>
+<td>大山和大海 (和 &lt;– 大海)</td>
+</tr>
+<tr>
+<td>右附加关系</td>
+<td>RAD</td>
+<td>right adjunct</td>
+<td>孩子们 (孩子 –&gt; 们)</td>
+</tr>
+<tr>
+<td>独立结构</td>
+<td>IS</td>
+<td>independent structure</td>
+<td>两个单句在结构上彼此独立</td>
+</tr>
+<tr>
+<td>核心关系</td>
+<td>HED</td>
+<td>head</td>
+<td>指整个句子的核心</td>
+</tr>
+</tbody></table>
+<h5 id="2-3性能评价"><a href="#2-3性能评价" class="headerlink" title="2.3性能评价"></a>2.3性能评价</h5><p>1）无标记依存正确率（UA）:所有词中找到其正确支配词所占百分比</p>
+<blockquote>
+<p>没有找到支配的词（即根节点）也算在内，不必考虑依存关系是否正确</p>
+</blockquote>
+<p>2）带标记依存正确率（LA）:所有词中找到其正确支配词并且依存关系也标注正确的词所占百分比</p>
+<blockquote>
+<p>跟节点也算在内</p>
+</blockquote>
+<p>3）依存率（DA）:所有非根节点词中找到其正确支配词的词所占的百分比。</p>
+<blockquote>
+<p>就是UA的低配版。</p>
+</blockquote>
+<p>eg：</p>
+<p><img src="https://wx1.sbimg.cn/2020/04/23/1.png" alt="一个例子"></p>
+<p><img src="https://s1.ax1x.com/2020/04/23/JdJmDS.png" alt="答案"></p>
+<h3 id="3-Draft"><a href="#3-Draft" class="headerlink" title="3.Draft"></a>3.Draft</h3><h5 id="3-1-python下的json库"><a href="#3-1-python下的json库" class="headerlink" title="3.1 python下的json库"></a>3.1 python下的json库</h5><blockquote>
+<p>调用json库，可以将python字典转为json格式储存。我最开始的设想是，将依存句法分析的结果以字典的形式存起来。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    mydict = &#123;</span><br><span class="line">        <span class="string">'name'</span>: <span class="string">'Catherine'</span>,</span><br><span class="line">        <span class="string">'age'</span>: <span class="number">30</span>,</span><br><span class="line">        <span class="string">'qq'</span>: <span class="number">123456</span>,</span><br><span class="line">        <span class="string">'friends'</span>: [<span class="string">'Mike'</span>, <span class="string">'Joey'</span>],</span><br><span class="line">        <span class="string">'cars'</span>:[</span><br><span class="line">            &#123;<span class="string">'brand'</span>: <span class="string">'BYD'</span>, <span class="string">'max_speed'</span>: <span class="number">180</span>&#125;,</span><br><span class="line">            &#123;<span class="string">'brand'</span>: <span class="string">'JEEP'</span>, <span class="string">'max_speed'</span>: <span class="number">280</span>&#125;,</span><br><span class="line">            &#123;<span class="string">'brand'</span>: <span class="string">'Benz'</span>, <span class="string">'max_speed'</span>: <span class="number">320</span>&#125;</span><br><span class="line">        ]</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">with</span> open(<span class="string">'test.json'</span>, <span class="string">'w'</span>, encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> fs:</span><br><span class="line">            json.dump(mydict, fs)</span><br><span class="line">    <span class="keyword">except</span> IOError <span class="keyword">as</span> e:</span><br><span class="line">        print(e)</span><br><span class="line">    print(<span class="string">'保存数据完成!'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="3-2-测试StanfordNLP工具的句法分析效果"><a href="#3-2-测试StanfordNLP工具的句法分析效果" class="headerlink" title="3.2 测试StanfordNLP工具的句法分析效果"></a>3.2 测试StanfordNLP工具的句法分析效果</h5><blockquote>
+<p>1.中英文分词: StanfordTokenizer</p>
+<p>2.中英文词性标注: StanfordPOSTagger</p>
+<p>3.中英文命名实体识别: StanfordNERTagger</p>
+<p>4.中英文句法分析: StanfordParser</p>
+<p>5.中英文依存句法分析: StanfordDependencyParser, StanfordNeuralDependencyParser</p>
+</blockquote>
+<p>这玩意儿可视化其实有点难，昨晚大致了解了下，好像要nltk库。但昨晚状态不佳，没怎么弄清楚，</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> stanfordcorenlp <span class="keyword">import</span> StanfordCoreNLP</span><br><span class="line">nlp = StanfordCoreNLP(<span class="string">r"D:\Python\gnlp\stanford-corenlp-full-2020-04-20"</span>,port=<span class="number">9001</span>,lang = <span class="string">"zh"</span>)</span><br><span class="line"></span><br><span class="line">string = <span class="string">"在疫情大流行之前，密苏里州的失业率是过去十年最低水平"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># nlp下有很多可供使用的函数</span></span><br><span class="line"><span class="comment"># 1.命名实体的识别</span></span><br><span class="line">string_ner = nlp.ner(string)</span><br><span class="line">print(type(string_ner))<span class="comment"># list类型</span></span><br><span class="line">print(type(string_ner[<span class="number">0</span>]))<span class="comment"># list中每个元素是一个元组</span></span><br><span class="line">print(string_ner)</span><br><span class="line">print(<span class="string">"*"</span>*<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2.词性标注</span></span><br><span class="line">string_pos = nlp.pos_tag(string)</span><br><span class="line">print(type(string_pos))<span class="comment"># list类型</span></span><br><span class="line">print(type(string_pos[<span class="number">0</span>]))<span class="comment"># list中每个元素是一个元组</span></span><br><span class="line">print(string_pos)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3.可视化，建议单独跑。</span></span><br><span class="line"><span class="comment"># 我在jupyter notebook上遇到了没法解决的迷惑问题。</span></span><br><span class="line"><span class="comment"># 可视化结果在下方</span></span><br><span class="line"><span class="keyword">from</span> stanfordcorenlp <span class="keyword">import</span> StanfordCoreNLP</span><br><span class="line"><span class="keyword">from</span> nltk.tree <span class="keyword">import</span> Tree</span><br><span class="line"></span><br><span class="line">nlp = StanfordCoreNLP(<span class="string">'D:\Python\gnlp\stanford-corenlp-full-2020-04-20'</span>, lang=<span class="string">'zh'</span>)</span><br><span class="line">sentence=<span class="string">"境外输入确诊病例已有半数以上治愈出院"</span></span><br><span class="line">tree=Tree.fromstring(nlp.parse(sentence))</span><br><span class="line">tree.draw()</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s1.ax1x.com/2020/04/23/JdRLee.png" alt="可视化结果"></p>
+<h5 id="3-3-测试pynlp工具的句法分析效果"><a href="#3-3-测试pynlp工具的句法分析效果" class="headerlink" title="3.3 测试pynlp工具的句法分析效果"></a>3.3 测试pynlp工具的句法分析效果</h5><p>南京大学已经做出了个可视化工具，<a href="http://nlp.nju.edu.cn/tanggc/tools/DependencyViewer.exe" target="_blank" rel="noopener">官方下载</a>，<a href="https://jlthzy.lanzous.com/ibsusbi" target="_blank" rel="noopener">蓝奏云下载</a>。</p>
+<p>将依存句法分析之后的txt或者json文件导入该工具即可，十分好用，</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyhanlp <span class="keyword">import</span> *</span><br><span class="line">para_sen = <span class="string">"曾经有1000万个从中国来的口罩摆在面前，英国没有珍惜"</span></span><br><span class="line"><span class="comment">#句法分析</span></span><br><span class="line">sentence = HanLP.parseDependency(para_sen)</span><br><span class="line">print(sentence)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出依存文法的结果 json文件，在windows系统下的 Dependency Viewer.exe 打开文件</span></span><br><span class="line"><span class="comment">#通过转义字符\r实现写入空格</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">"test1.json"</span>, <span class="string">"w"</span>, encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> fs:</span><br><span class="line">     fs.write(str(sentence))</span><br><span class="line">     fs.write(<span class="string">"\r\n"</span>)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">with</span> open(<span class="string">"test1.txt"</span>, <span class="string">"w"</span>, encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> fs:</span><br><span class="line">     fs.write(str(sentence))</span><br><span class="line">     fs.write(<span class="string">"\r\n"</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="3-4-正确率分析"><a href="#3-4-正确率分析" class="headerlink" title="3.4 正确率分析"></a>3.4 正确率分析</h5><p>感觉写程序计算有点困难，暂时没有任何思路，实在不行就手算吧。</p>
+<h5 id="3-5-预料准备"><a href="#3-5-预料准备" class="headerlink" title="3.5 预料准备"></a>3.5 预料准备</h5><p>老师要求20句，私以为新闻是比较合适的。所以复制了20句</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">拯救人类命运，只能靠人类大家庭。</span><br><span class="line">新冠病毒是人类共同面对的凶险敌人。</span><br><span class="line">孙杨入选中国游泳队奥运集训名单</span><br><span class="line">宋仲基不戴口罩露面，身处国外神态轻松。</span><br><span class="line">周深不会成为第二个毛不易。</span><br><span class="line">他脸上神情明显是失落的。</span><br><span class="line">股价不断创新高的亚马逊被自己人搞砸了。</span><br><span class="line">报道称，由于工人们被安排在不同的日期和时间轮班上岗，所以抗议活动将持续多日。</span><br><span class="line">美国苹果公司以<span class="number">1.17</span>万亿的总市值再度超越亚马逊、</span><br><span class="line">全美至少<span class="number">50</span>个仓库超过<span class="number">300</span>名员工将陆陆续续参与这项抗议活动。</span><br><span class="line">这些员工要求亚马逊“立即关闭”发生新冠疫情的仓库，并在此期间提供检测和两周的薪水。</span><br><span class="line">他们还呼吁亚马逊提供带薪假期，确保所有亚马逊同事的安全。</span><br><span class="line">虽然在确诊事件发生后，其中一些仓库被关闭进行清洁消毒，一些与感染者有密切接触的员工也已经被隔离。</span><br><span class="line">仓库工人的呼吁也获得了亚马逊公司员工的支持。</span><br><span class="line">全球各地的消费者们比以往任何时候都更依赖于网上购物。</span><br><span class="line">全球千亿富豪俱乐部仅仅剩下贝索斯和比尔盖茨二人。</span><br><span class="line">美国迪斯尼停止支付<span class="number">10</span>万名员工工资以节省开支。</span><br><span class="line">北京恢复市内旅行社组团旅游业务，旅行社陆续上线产品。</span><br><span class="line">恢复经营是积极信号，但对旅行社影响有限。</span><br><span class="line">这令不少中行原油宝的投资者愕然。</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-Code"><a href="#4-Code" class="headerlink" title="4.Code"></a>4.Code</h3><p>整体代码已经完成，后面再补。</p>
+</p></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2020/04/20/Block%20Chain%20&amp;%20Bircoin%20week3/" title="Block Chain &amp; Bircoin week3">下一篇: Block Chain & Bircoin week3&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div><a id="comments"></a><div id="valine-container"></div><script>(function(){
+    if(typeof Valine !== 'undefined'){
+        new Valine({
+            el:'#valine-container',
+            appId: '4BnPmxhNaSW5zalGBEpEWBkU-gzGzoHsz',
+            appKey: 'J0kuzWw1GHsnqBOrvRjYGUjL',
+            path: window.location.pathname
+        })
+    }
+}())
+</script></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.min.js"></script></body></html>
