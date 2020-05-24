@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-05-20T14:45:16.809Z</updated>
+  <updated>2020-05-24T00:39:19.304Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能控制系统练习题</title>
+    <link href="https://leohu.me/2020/05/24/%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/"/>
+    <id>https://leohu.me/2020/05/24/%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/</id>
+    <published>2020-05-24T00:39:33.632Z</published>
+    <updated>2020-05-24T00:39:19.304Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-问答题&quot;&gt;&lt;a href=&quot;#1-问答题&quot; class=&quot;headerlink&quot; title=&quot;1.问答题&quot;&gt;&lt;/a&gt;1.问答题&lt;/h3&gt;&lt;h5 id=&quot;1-1-描述智能系统的概念及其三元论构成&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="ic" scheme="https://leohu.me/tags/ic/"/>
+    
+  </entry>
   
   <entry>
     <title>Ucloud服务器测试</title>
