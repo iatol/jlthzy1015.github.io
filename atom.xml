@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-06-01T15:08:47.301Z</updated>
+  <updated>2020-06-07T04:00:08.055Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RNN LSTM &amp; GRU基础</title>
+    <link href="https://leohu.me/2020/06/07/RNN&amp;LSTM%E5%9F%BA%E7%A1%80/"/>
+    <id>https://leohu.me/2020/06/07/RNN&amp;LSTM%E5%9F%BA%E7%A1%80/</id>
+    <published>2020-06-07T04:00:19.951Z</published>
+    <updated>2020-06-07T04:00:08.055Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;废话&quot;&gt;&lt;a href=&quot;#废话&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://leohu.me/2020/06/05/1/"/>
+    <id>https://leohu.me/2020/06/05/1/</id>
+    <published>2020-06-05T00:10:41.119Z</published>
+    <updated>2020-06-05T00:10:32.291Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;$$&lt;br&gt;ec=m^2&lt;br&gt;$$&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
+    
+  </entry>
   
   <entry>
     <title>判断题</title>
