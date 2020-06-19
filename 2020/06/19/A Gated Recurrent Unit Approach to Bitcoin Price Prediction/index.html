@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="zh-CN"><!--
+             -. .                                        
+       _____   ',' ,                                    
+     ,'     ,'   ', ',                                  
+   ,'     ,'      |  |                                  
+   \       \       |  |                                  
+     \ /^\   \    ,' ,'                                  
+           \   \ ,' ,'      L'Internationale,            
+     / ~-.___\.-'  ,'            Sera le genre humain.   
+   /   .______.- ~ \                                     
+ /   /'          \   \                                   
+ \./               \/'                                   
+                                                         
+--><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Jlthzy"><title>A Gated Recurrent Unit Approach to Bitcoin Price Prediction · Jlthzy's Blog</title><meta name="description" content="A Gated Recurrent Unit Approach to Bitcoin Price Prediction摘要在当今的大数据时代，深度学习和人工智能已成为加密货币投资组合优化的中坚力量。 研究人员研究了各种最新的机器学习模型，以预测比特币的价格和波动性。 像循环神经网络（RNN）和长短期"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style-dark.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/valine.min.js"></script><meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><span class="donate-address">唯一指定邮箱：Jlthzy123@gmail.com</span><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">当我拥着光亮 ⭐ 环着希望</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">就是这样 </a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/abouts/index.html">关于</a></li><li><a href="/tags/index.html"></a></li><li><a href="/categories/index.html"></a></li><li><a href="/archives/index.html"></a></li><li class="soc"><a href="https://github.com/jlthzy1015" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a><a href="https://twitter.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp;</i></a><a href="https://www.instagram.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><h1 class="post-title">A Gated Recurrent Unit Approach to Bitcoin Price Prediction</h1><p class="post-meta"><span class="date meta-item">发布于&nbsp;2020-06-19</span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a href="/tags/blockchain/" title="blockchain" class="a-tag">blockchain</a><span>&nbsp;</span></span></p><p class="post-abstract"><h2 id="A-Gated-Recurrent-Unit-Approach-to-Bitcoin-Price-Prediction"><a href="#A-Gated-Recurrent-Unit-Approach-to-Bitcoin-Price-Prediction" class="headerlink" title="A Gated Recurrent Unit Approach to Bitcoin Price Prediction"></a>A Gated Recurrent Unit Approach to Bitcoin Price Prediction</h2><h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在当今的大数据时代，深度学习和人工智能已成为加密货币投资组合优化的中坚力量。 研究人员研究了各种最新的机器学习模型，以预测比特币的价格和波动性。 像循环神经网络（RNN）和长短期记忆（LSTM）这样的机器学习模型在加密货币价格预测中表现出比传统时间序列模型更好的性能。 但是，很少有研究将序列模型与健壮的<strong>特征工程</strong>结合使用来预测未来价格。 在这项研究中，我们研究了一个框架，该框架具有一组高级机器学习预测方法，这些方法具有固定的一组外生和内生因素来预测每日比特币价格。我们使用均方根误差（RMSE）作为评价指标来研究和比较不同的预测方法。实验结果表明，具有经常性辍学的门控循环单元（GRU）模型比流行的现有模型具有更好的性能。 我们还表明，简单的交易策略在采用我们建议的GRU模型并经过适当学习后可以实现，从而带来财务收益。</p>
+<h3 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a>1. Introduction</h3><p>比特币于2008年首次推出，P2P交易无需任何中间媒介。自2017年以来，加密货币市值的快速增长使其获得极大地普及，在2018年，其收入超过了7000亿美元。加密货币市场是多变的，同时也为投资者提供了各种各样的产品。目前交易市场已有超过2000种加密货币，自2017年以来已有超过170家专门从事加密货币的对冲基金。</p>
+<p>虚拟货币的快速增长引起了科学界的兴趣。加密货币在特定时间段面临周期性的上涨和突然的下跌，因此加密货币交易界需要一种标准化的方法来准确预测价格的波动趋势。</p>
+<p>过去对加密货币价格波动和预测的研究(Poyser 2017)集中于价格波动的分析和预测，主要使用传统的方法进行金融市场分析和预测。Sovbetov 2018年指出，与加密货币市场相关的因素（例如Market beta，交易量和波动性）是加密货币短期和长期价格的重要预测指标。</p>
+<p>构建稳健的预测模型来准确预测加密货币的价格是潜在投资者和政府机构面临的一个重要商业挑战。Muzammal 在2019年指出，加密货币交易实际上是一个时间序列预测问题，但由于高波动性，又有别于传统金融市场的价格预测。</p>
+<p>所以后面就自然而然引出了机器学习，机器学习好呀，然而，机器学习在加密货币价格预测中的应用还很缺乏。与ARMA等传统的线性统计模型相比，人工智能方法使我们能够捕获高波动性加密货币价格的非线性特性。</p>
+<p>Pichl 和 Kaizoji 在2017年指出 相较于普通的神经网络，更复杂的深度学习方法（如RNN和LSTM技术）应产生更高的预测精度。</p>
+<h3 id="2-Methodology（方法？策略？）"><a href="#2-Methodology（方法？策略？）" class="headerlink" title="2.Methodology（方法？策略？）"></a>2.Methodology（方法？策略？）</h3><p>wang在2015年指出文献表明：传统的神经网络在有效地使用先验信息进行未来预测方面存在缺陷。</p>
+<p>RNN无法处理长期依赖关系，性能因此经常受到短期记忆的干扰。因此在处理长序列，例如时间序列建模和文本分析中，RNN可能会遇到梯度消失的问题</p>
+<p>LSTM和GRU都能有效地解决长序列模型中出现的梯度消失问题。</p>
+<h3 id="3-Data-collection-and-Feature-Engineering"><a href="#3-Data-collection-and-Feature-Engineering" class="headerlink" title="3.Data collection and Feature Engineering"></a>3.Data collection and Feature Engineering</h3><h5 id="3-1-Data-pre-processing"><a href="#3-1-Data-pre-processing" class="headerlink" title="3.1 Data pre_processing"></a>3.1 Data pre_processing</h5><p>数据归一化</p>
+<p>训练集+验证集+测试集</p>
+<h5 id="3-2-特征选取"><a href="#3-2-特征选取" class="headerlink" title="3.2 特征选取"></a>3.2 特征选取</h5><p>原文说的是仔细观察下面这个图表可以发现，内生特征和比特币价格的关系更强</p>
+<blockquote>
+<p>抱歉，鄙人才疏学浅是真滴没有看出来</p>
+</blockquote>
+<p><img src="https://yanxuan.nosdn.127.net/e64f2db65e3f43c9c99335638032cedb.png" alt="feature.png"></p>
+<p>这两个特征其实很容易理解，内生特征就是比特币交易过程中的一系列指标，而外生特征更多的是外在因素的干扰，例如bitcoin这个单词在谷歌的搜索趋势，国家的相关政策等等。下面是原始论文中用到的内生和外生特征👇</p>
+<p>内生特征：</p>
+<blockquote>
+<p>Bitcoin  price,  Bitcoin  daily  lag  returns,  price  volatility,  miners  revenue,  transaction  volume, transaction fees, hash rate, money supply, block size and Metcalfe-UTXO. T</p>
+</blockquote>
+<p>外生特征</p>
+<blockquote>
+<p>interest rates in the US treasury bond-yields(美国国债收益率), gold price, VIX volatility index, S&amp;P dollar returns. </p>
+</blockquote>
+<h3 id="4-Model-Implementation-and-Results"><a href="#4-Model-Implementation-and-Results" class="headerlink" title="4.Model Implementation and Results"></a>4.Model Implementation and Results</h3><p>1.先用标准时间序列模型进行预测</p>
+<blockquote>
+<p>首先，时间序列预测将基于回归建模进行评价</p>
+<p>其次，可以判断浅层/深层学习模型相对于传统模型的相对预测能力。</p>
+</blockquote>
+<p>2.深度学习模型的预测实现方法是偏差和方差这两个预测误差的主要来源之间的权衡</p>
+<blockquote>
+<p>低方差高偏差的模型拟合效果不好</p>
+<p>高方差低偏差的模型过拟合</p>
+</blockquote>
+<p>3.预测方法的目标是在偏差和方差之间找到最优平衡，同时实现低偏差和低方差。使用RMSE作为评价指标，RMSE对较大的误差有较大的权重。</p>
+<p>4.初始化RNN look-back的周期为30天。30天期限与投资组合每月的标准交易日历保持一致。</p>
+<blockquote>
+<p>此外，可以将15，45以及60days作为look-back周期</p>
+</blockquote>
+<p>5.学习率是最重要的超参数之一，可以有效地用于偏方差权衡。</p>
+<blockquote>
+<p>但是，通过改变学习率，训练效果并没有明显改善，因此使用了Keras包中的默认值(Francois Chollet, 2015)。</p>
+</blockquote>
+<p>6.使用adam优化器</p>
+<p>7.实验分析</p>
+<p>很简单，明天再补</p>
+</p></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2020/06/08/%E8%84%91%E8%AE%A4%E7%9F%A5%E7%A0%94%E8%AE%A8%E8%AF%BE%E7%AC%94%E8%AE%B0/" title="脑认知研讨课笔记">下一篇: 脑认知研讨课笔记&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div><a id="comments"></a><div id="valine-container"></div><script>(function(){
+    if(typeof Valine !== 'undefined'){
+        new Valine({
+            el:'#valine-container',
+            appId: '4BnPmxhNaSW5zalGBEpEWBkU-gzGzoHsz',
+            appKey: 'J0kuzWw1GHsnqBOrvRjYGUjL',
+            path: window.location.pathname
+        })
+    }
+}())
+</script></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.min.js"></script></body></html>
