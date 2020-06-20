@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-06-19T14:13:22.794Z</updated>
+  <updated>2020-06-20T00:01:01.021Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VPS DNS修改</title>
+    <link href="https://leohu.me/2020/06/20/vps%20DNS%E4%BF%AE%E6%94%B9/"/>
+    <id>https://leohu.me/2020/06/20/vps%20DNS%E4%BF%AE%E6%94%B9/</id>
+    <published>2020-06-20T00:01:12.551Z</published>
+    <updated>2020-06-20T00:01:01.021Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近入手了两台VPS，水墨云的香港三网cn2 gia和美西安畅cn2 gia。&lt;/p&gt;
+&lt;p&gt;香港服务器折扣下来350/年，100M带宽，优质线路，简直不要太香，爱了爱了！&lt;/p&gt;
+&lt;h3 id=&quot;Cent-OS&quot;&gt;&lt;a href=&quot;#Cent-OS&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="vps" scheme="https://leohu.me/tags/vps/"/>
+    
+  </entry>
   
   <entry>
     <title>A Gated Recurrent Unit Approach to Bitcoin Price Prediction</title>
@@ -499,31 +526,6 @@
     
     
       <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://leohu.me/2020/04/09/hello-world/"/>
-    <id>https://leohu.me/2020/04/09/hello-world/</id>
-    <published>2020-04-09T07:47:38.654Z</published>
-    <updated>2020-04-09T09:41:16.535Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="see the world" scheme="https://leohu.me/tags/see-the-world/"/>
     
   </entry>
   
