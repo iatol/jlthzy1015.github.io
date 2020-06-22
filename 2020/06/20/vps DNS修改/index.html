@@ -26,6 +26,13 @@ Cent OS在终端输入以下指令
 <blockquote>
 <p>注意只保留DNS1就行了，其它的DNS全部删掉</p>
 </blockquote>
+<p>然后重启网卡生效</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service network restart</span><br></pre></td></tr></table></figure>
+
+
+
+
+
 <h3 id="Debian"><a href="#Debian" class="headerlink" title="Debian"></a>Debian</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/resolv.conf</span><br></pre></td></tr></table></figure>
 
 <p>更改DNS1=114.114.114.114为8.8.8.8</p>
