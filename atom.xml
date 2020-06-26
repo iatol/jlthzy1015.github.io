@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-06-25T08:01:46.816Z</updated>
+  <updated>2020-06-26T13:55:56.302Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>脑认知模拟题及答案</title>
+    <link href="https://leohu.me/2020/06/26/%E8%84%91%E8%AE%A4%E7%9F%A5%E6%A8%A1%E6%8B%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88/"/>
+    <id>https://leohu.me/2020/06/26/%E8%84%91%E8%AE%A4%E7%9F%A5%E6%A8%A1%E6%8B%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88/</id>
+    <published>2020-06-26T13:55:58.451Z</published>
+    <updated>2020-06-26T13:55:56.302Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>VPS DNS修改+TCP回程测试</title>
@@ -119,37 +142,11 @@
   </entry>
   
   <entry>
-    <title>判断题</title>
-    <link href="https://leohu.me/2020/05/31/%E5%88%A4%E6%96%AD%E9%A2%98/"/>
-    <id>https://leohu.me/2020/05/31/%E5%88%A4%E6%96%AD%E9%A2%98/</id>
-    <published>2020-05-31T15:46:20.554Z</published>
-    <updated>2020-06-01T15:08:47.301Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;总结一手可能的判断题，顺便强化下概念。&lt;/p&gt;
-&lt;p&gt;判断题合集：&lt;a href=&quot;https://www.jianguoyun.com/p/Da6J2E8Q-LasCBiy2J4D&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="运筹与优化" scheme="https://leohu.me/tags/%E8%BF%90%E7%AD%B9%E4%B8%8E%E4%BC%98%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能控制系统练习题</title>
-    <link href="https://leohu.me/2020/05/24/%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/"/>
-    <id>https://leohu.me/2020/05/24/%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/</id>
+    <title>智能控制系统练习题答案</title>
+    <link href="https://leohu.me/2020/05/24/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/"/>
+    <id>https://leohu.me/2020/05/24/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88/</id>
     <published>2020-05-24T00:39:33.632Z</published>
-    <updated>2020-06-02T05:17:22.318Z</updated>
+    <updated>2020-06-26T13:56:55.846Z</updated>
     
     <summary type="html">
     
@@ -197,11 +194,11 @@
   </entry>
   
   <entry>
-    <title>关于脑的基础概念</title>
+    <title>视觉皮层基本概念</title>
     <link href="https://leohu.me/2020/05/14/%E5%85%B3%E4%BA%8E%E8%84%91%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     <id>https://leohu.me/2020/05/14/%E5%85%B3%E4%BA%8E%E8%84%91%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</id>
     <published>2020-05-14T09:42:43.738Z</published>
-    <updated>2020-05-24T00:46:59.135Z</updated>
+    <updated>2020-06-26T13:56:38.165Z</updated>
     
     <summary type="html">
     
@@ -326,58 +323,6 @@
   </entry>
   
   <entry>
-    <title>随笔</title>
-    <link href="https://leohu.me/2020/04/18/Note_%E9%9A%8F%E7%AC%94/"/>
-    <id>https://leohu.me/2020/04/18/Note_%E9%9A%8F%E7%AC%94/</id>
-    <published>2020-04-18T15:02:28.826Z</published>
-    <updated>2020-04-18T15:07:13.075Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;200418&lt;/p&gt;
-&lt;p&gt;今天看了酷玩实验室的一篇文章，蛮有感触。今晚有点事，回头来写感受！&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Note" scheme="https://leohu.me/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次在服务器上部署jupyter notebook的经历</title>
-    <link href="https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
-    <id>https://leohu.me/2020/04/17/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%83%A8%E7%BD%B2jupyter%20notebook%E7%9A%84%E7%BB%8F%E5%8E%86/</id>
-    <published>2020-04-17T08:28:12.870Z</published>
-    <updated>2020-04-17T08:30:47.329Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-安装Miniconda&quot;&gt;&lt;a href=&quot;#1-安装Miniconda&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
-    
-  </entry>
-  
-  <entry>
     <title>基于隐马尔科夫（HMM）模型的中文分词</title>
     <link href="https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/"/>
     <id>https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/</id>
@@ -479,31 +424,6 @@
   </entry>
   
   <entry>
-    <title>x光肺炎多分类</title>
-    <link href="https://leohu.me/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%A4%9A%E5%88%86%E7%B1%BB/"/>
-    <id>https://leohu.me/2020/04/10/x%E5%85%89%E8%82%BA%E7%82%8E%E5%A4%9A%E5%88%86%E7%B1%BB/</id>
-    <published>2020-04-10T14:42:38.676Z</published>
-    <updated>2020-05-24T00:46:45.434Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-写在前面&quot;&gt;&lt;a href=&quot;#1-写在前面&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="dl" scheme="https://leohu.me/tags/dl/"/>
-    
-  </entry>
-  
-  <entry>
     <title>NLP Week1</title>
     <link href="https://leohu.me/2020/04/09/NLP_week1/"/>
     <id>https://leohu.me/2020/04/09/NLP_week1/</id>
@@ -526,6 +446,31 @@
     
     
       <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://leohu.me/2020/04/09/hello-world/"/>
+    <id>https://leohu.me/2020/04/09/hello-world/</id>
+    <published>2020-04-09T07:47:38.654Z</published>
+    <updated>2020-04-09T09:41:16.535Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="see the world" scheme="https://leohu.me/tags/see-the-world/"/>
     
   </entry>
   
