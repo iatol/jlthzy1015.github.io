@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-06-28T09:02:12.139Z</updated>
+  <updated>2020-07-01T08:51:44.944Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>justhost新西伯利亚vps测试</title>
+    <link href="https://leohu.me/2020/07/01/justhost%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9Avps%E6%B5%8B%E8%AF%95%E8%BF%87/"/>
+    <id>https://leohu.me/2020/07/01/justhost%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9Avps%E6%B5%8B%E8%AF%95%E8%BF%87/</id>
+    <published>2020-07-01T08:51:59.151Z</published>
+    <updated>2020-07-01T08:51:44.944Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近有客户需要俄罗斯的vps，之前恰好了解过justhost，就拿了一台试试。&lt;/p&gt;
+&lt;p&gt;9rmb/月，一台小小鸡，除了富强基本没啥用&lt;/p&gt;
+&lt;p&gt;200M共享带宽，下午闲时测试&lt;/p&gt;
+&lt;h3 id=&quot;三网测速&quot;&gt;&lt;a href=&quot;#三网测速&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="vps" scheme="https://leohu.me/tags/vps/"/>
+    
+  </entry>
   
   <entry>
     <title>脑认知模拟题及答案</title>
