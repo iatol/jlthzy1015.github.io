@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-15T12:51:06.016Z</updated>
+  <updated>2020-07-17T09:22:13.163Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Server Status服务器探针</title>
+    <link href="https://leohu.me/2020/07/17/%E5%8F%AF%E4%B9%90%E6%8E%A2%E9%92%88/"/>
+    <id>https://leohu.me/2020/07/17/%E5%8F%AF%E4%B9%90%E6%8E%A2%E9%92%88/</id>
+    <published>2020-07-17T09:22:28.268Z</published>
+    <updated>2020-07-17T09:22:13.163Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;Server
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="vps" scheme="https://leohu.me/tags/vps/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次考研学长分享会记录</title>
@@ -498,32 +523,6 @@
         
         
           &lt;h3 id=&quot;1-总述&quot;&gt;&lt;a href=&quot;#1-总述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NLP Week1</title>
-    <link href="https://leohu.me/2020/04/09/NLP_week1/"/>
-    <id>https://leohu.me/2020/04/09/NLP_week1/</id>
-    <published>2020-04-09T10:08:20.688Z</published>
-    <updated>2020-05-24T00:45:54.861Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;NLP课程week1实验&lt;/p&gt;
-&lt;h3 id=&quot;总述&quot;&gt;&lt;a href=&quot;#总述&quot; class=&quot;headerlink&quot; title=&quot;总述&quot;&gt;&lt;/a&gt;总述&lt;/h3&gt;&lt;h4 id=&quot;PS-代码写得比较散-封装一下会好看些嘿嘿&quot;&gt;&lt;a
         
       
     
