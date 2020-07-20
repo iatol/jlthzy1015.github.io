@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-17T09:22:13.163Z</updated>
+  <updated>2020-07-20T00:41:17.892Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔记录</title>
+    <link href="https://leohu.me/2020/07/20/%E9%9A%8F%E7%AC%94/"/>
+    <id>https://leohu.me/2020/07/20/%E9%9A%8F%E7%AC%94/</id>
+    <published>2020-07-20T00:41:21.812Z</published>
+    <updated>2020-07-20T00:41:17.892Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2020-07-20&quot;&gt;&lt;a href=&quot;#2020-07-20&quot; class=&quot;headerlink&quot; title=&quot;2020 07 20&quot;&gt;&lt;/a&gt;2020 07
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="https://leohu.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Server Status服务器探针</title>
@@ -506,31 +531,6 @@
     
     
       <category term="see the world" scheme="https://leohu.me/tags/see-the-world/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NLP_week2</title>
-    <link href="https://leohu.me/2020/04/12/NLP_week2/"/>
-    <id>https://leohu.me/2020/04/12/NLP_week2/</id>
-    <published>2020-04-12T10:57:52.963Z</published>
-    <updated>2020-05-24T00:46:03.992Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-总述&quot;&gt;&lt;a href=&quot;#1-总述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
     
   </entry>
   
