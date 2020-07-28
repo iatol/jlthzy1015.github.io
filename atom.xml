@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-21T15:29:15.274Z</updated>
+  <updated>2020-07-28T06:07:57.929Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在CentOS7下配置深度学习环境</title>
+    <link href="https://leohu.me/2020/07/28/%E5%9C%A8Centos7%E4%B8%8B%E5%AE%89%E8%A3%85anaconda%E7%8E%AF%E5%A2%83/"/>
+    <id>https://leohu.me/2020/07/28/%E5%9C%A8Centos7%E4%B8%8B%E5%AE%89%E8%A3%85anaconda%E7%8E%AF%E5%A2%83/</id>
+    <published>2020-07-28T06:08:10.031Z</published>
+    <updated>2020-07-28T06:07:57.929Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;废话流&quot;&gt;&lt;a href=&quot;#废话流&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue学习小记</title>
@@ -507,31 +532,6 @@
     
     
       <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Block Chain &amp; Bitcoin week2</title>
-    <link href="https://leohu.me/2020/04/16/Block%20Chain%20&amp;%20Bircoin%20week2/"/>
-    <id>https://leohu.me/2020/04/16/Block%20Chain%20&amp;%20Bircoin%20week2/</id>
-    <published>2020-04-16T10:37:04.010Z</published>
-    <updated>2020-05-24T00:45:43.889Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;代码写完了&quot;&gt;&lt;a href=&quot;#代码写完了&quot; class=&quot;headerlink&quot; title=&quot;代码写完了&quot;&gt;&lt;/a&gt;代码写完了&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="blockchain" scheme="https://leohu.me/tags/blockchain/"/>
     
   </entry>
   
