@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-28T06:07:57.929Z</updated>
+  <updated>2020-07-28T13:18:16.960Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue学习记录2--Debug</title>
+    <link href="https://leohu.me/2020/07/28/Vue%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%952/"/>
+    <id>https://leohu.me/2020/07/28/Vue%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%952/</id>
+    <published>2020-07-28T13:17:31.144Z</published>
+    <updated>2020-07-28T13:18:16.960Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这两周的学习也就是快速入了门而已，很多知识点都是一知半解的。哎，也没有时间去补。&lt;/p&gt;
+&lt;h3 id=&quot;vue-style-loader-css-loader-类问题&quot;&gt;&lt;a href=&quot;#vue-style-loader-css-loader-类问题&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learn" scheme="https://leohu.me/tags/learn/"/>
+    
+  </entry>
   
   <entry>
     <title>在CentOS7下配置深度学习环境</title>
@@ -506,32 +532,6 @@
     
     
       <category term="人工智能与脑认知" scheme="https://leohu.me/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基于隐马尔科夫（HMM）模型的中文分词</title>
-    <link href="https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/"/>
-    <id>https://leohu.me/2020/04/16/%E5%9F%BA%E4%BA%8E%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%EF%BC%88HMM%EF%BC%89%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D/</id>
-    <published>2020-04-16T10:38:33.066Z</published>
-    <updated>2020-05-24T00:47:07.449Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-几个名词&quot;&gt;&lt;a href=&quot;#1-几个名词&quot; class=&quot;headerlink&quot; title=&quot;1.几个名词&quot;&gt;&lt;/a&gt;1.几个名词&lt;/h3&gt;&lt;p&gt;泛化能力：是指机器学习算法对新鲜样本的适应能力&lt;/p&gt;
-&lt;h3 id=&quot;2-简介&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
     
   </entry>
   
