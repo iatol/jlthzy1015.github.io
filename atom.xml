@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-30T06:51:10.649Z</updated>
+  <updated>2020-07-30T09:53:38.507Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://leohu.me/2020/07/30/V2-ui%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
     <id>https://leohu.me/2020/07/30/V2-ui%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
     <published>2020-07-30T07:07:18.779Z</published>
-    <updated>2020-07-30T06:51:10.649Z</updated>
+    <updated>2020-07-30T09:53:38.507Z</updated>
     
     <summary type="html">
     
@@ -30,8 +30,8 @@
         
         
           &lt;p&gt;一直以来的都用的Trojan面板，有点腻了，今天来试试V2ray面板，这是Github上一个开源的项目，感觉还不错，拿下来试试。&lt;/p&gt;
-&lt;p&gt;正好手上这台谷歌云服务器内存开小了，打算换台大点的，就拿V2-ui练练手&lt;/p&gt;
-&lt;h3 id=&quot;1-准备工作&quot;&gt;&lt;a
+&lt;p&gt;正好手上这台谷歌云服务器内存开小了，打算换台大点的，就拿V2-ui练练手。&lt;/p&gt;
+&lt;p&gt;V2-ui使用python写的，内存占用
         
       
     
