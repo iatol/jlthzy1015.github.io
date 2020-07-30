@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-28T13:18:16.960Z</updated>
+  <updated>2020-07-30T06:51:10.649Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>V2-ui面板学习小记</title>
+    <link href="https://leohu.me/2020/07/30/V2-ui%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://leohu.me/2020/07/30/V2-ui%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
+    <published>2020-07-30T07:07:18.779Z</published>
+    <updated>2020-07-30T06:51:10.649Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一直以来的都用的Trojan面板，有点腻了，今天来试试V2ray面板，这是Github上一个开源的项目，感觉还不错，拿下来试试。&lt;/p&gt;
+&lt;p&gt;正好手上这台谷歌云服务器内存开小了，打算换台大点的，就拿V2-ui练练手&lt;/p&gt;
+&lt;h3 id=&quot;1-准备工作&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="see the world" scheme="https://leohu.me/tags/see-the-world/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue学习记录2--Debug</title>
@@ -507,31 +534,6 @@
     
     
       <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>人工智能与脑认知课程 课堂随手记</title>
-    <link href="https://leohu.me/2020/04/20/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5%E8%AF%BE%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
-    <id>https://leohu.me/2020/04/20/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5%E8%AF%BE%E7%A8%8B%E8%AE%B0%E5%BD%95/</id>
-    <published>2020-04-20T02:05:53.004Z</published>
-    <updated>2020-05-24T00:47:44.337Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;Week3&quot;&gt;&lt;a href=&quot;#Week3&quot; class=&quot;headerlink&quot; title=&quot;Week3&quot;&gt;&lt;/a&gt;Week3&lt;/h3&gt;&lt;h4 id=&quot;1-人的行为非常复杂，情感因素会影响人的感知和认知能力（影响认知的因素1：情感的影响）&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="人工智能与脑认知" scheme="https://leohu.me/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5/"/>
     
   </entry>
   
