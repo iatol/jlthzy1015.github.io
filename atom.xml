@@ -196,6 +196,31 @@
   </entry>
   
   <entry>
+    <title>随笔记录</title>
+    <link href="https://leohu.me/2020/07/20/%E9%9A%8F%E7%AC%94/"/>
+    <id>https://leohu.me/2020/07/20/%E9%9A%8F%E7%AC%94/</id>
+    <published>2020-07-20T00:41:21.812Z</published>
+    <updated>2020-08-12T09:29:21.608Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2020-08-11&quot;&gt;&lt;a href=&quot;#2020-08-11&quot; class=&quot;headerlink&quot; title=&quot;2020 08 11&quot;&gt;&lt;/a&gt;2020 08
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="https://leohu.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Server Status服务器探针</title>
     <link href="https://leohu.me/2020/07/17/%E5%8F%AF%E4%B9%90%E6%8E%A2%E9%92%88/"/>
     <id>https://leohu.me/2020/07/17/%E5%8F%AF%E4%B9%90%E6%8E%A2%E9%92%88/</id>
@@ -505,34 +530,6 @@
     
     
       <category term="人工智能与脑认知" scheme="https://leohu.me/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytorch神经网络工具箱</title>
-    <link href="https://leohu.me/2020/05/11/Pytorch%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <id>https://leohu.me/2020/05/11/Pytorch%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7%E7%AE%B1/</id>
-    <published>2020-05-11T09:26:36.024Z</published>
-    <updated>2020-05-24T00:46:28.260Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;在开始之前假装已经知道了Pytorch的数据结构和自动求导机制。&lt;/p&gt;
-&lt;p&gt;本文档在不断优化补充中。。。&lt;/p&gt;
-&lt;p&gt;七牛云+PicGo搭建属于自己的免费图床！！简直不要太方便！！！&lt;/p&gt;
-&lt;h2 id=&quot;1-核心组件&quot;&gt;&lt;a href=&quot;#1-核心组件&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="dl" scheme="https://leohu.me/tags/dl/"/>
     
   </entry>
   
