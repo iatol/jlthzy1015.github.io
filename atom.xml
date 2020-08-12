@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leohu.me/"/>
-  <updated>2020-07-31T08:48:12.024Z</updated>
+  <updated>2020-08-12T02:24:40.861Z</updated>
   <id>https://leohu.me/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>冷战后的五个战略机遇期（下）</title>
+    <link href="https://leohu.me/2020/08/12/%E5%86%B7%E6%88%98%E5%90%8E%E7%9A%84%E4%BA%94%E4%B8%AA%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F%EF%BC%88%E4%B8%8B%EF%BC%89/"/>
+    <id>https://leohu.me/2020/08/12/%E5%86%B7%E6%88%98%E5%90%8E%E7%9A%84%E4%BA%94%E4%B8%AA%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F%EF%BC%88%E4%B8%8B%EF%BC%89/</id>
+    <published>2020-08-12T02:24:58.137Z</published>
+    <updated>2020-08-12T02:24:40.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在知乎上看到几篇不错的文章，但不代表完全赞同作者观点，下面全文搬运:&lt;a href=&quot;https://zhuanlan.zhihu.com/p/165758091&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="时政" scheme="https://leohu.me/tags/%E6%97%B6%E6%94%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冷战后的五个战略机遇期（中）</title>
+    <link href="https://leohu.me/2020/08/12/%E5%86%B7%E6%88%98%E5%90%8E%E7%9A%84%E4%BA%94%E4%B8%AA%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F%EF%BC%88%E4%B8%AD%EF%BC%89/"/>
+    <id>https://leohu.me/2020/08/12/%E5%86%B7%E6%88%98%E5%90%8E%E7%9A%84%E4%BA%94%E4%B8%AA%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F%EF%BC%88%E4%B8%AD%EF%BC%89/</id>
+    <published>2020-08-12T02:24:58.135Z</published>
+    <updated>2020-08-12T02:23:26.900Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在知乎上看到几篇不错的文章，但不代表完全赞同作者观点，下面全文搬运:&lt;a href=&quot;https://www.zhihu.com/people/chang-shou-92/posts&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="时政" scheme="https://leohu.me/tags/%E6%97%B6%E6%94%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>V2-ui面板学习小记</title>
@@ -483,57 +533,6 @@
     
     
       <category term="dl" scheme="https://leohu.me/tags/dl/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>EEG脑电数据预处理(Week3上机实验)</title>
-    <link href="https://leohu.me/2020/04/25/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%84%91%E8%AE%A4%E7%9F%A5week3%E4%B8%8A%E6%9C%BA/"/>
-    <id>https://leohu.me/2020/04/25/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%84%91%E8%AE%A4%E7%9F%A5week3%E4%B8%8A%E6%9C%BA/</id>
-    <published>2020-04-25T10:35:53.714Z</published>
-    <updated>2020-06-28T10:13:49.741Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;数据预处理的品种其实很多，这里仅列举所使用的。&lt;/p&gt;
-&lt;h3 id=&quot;1-原理理解&quot;&gt;&lt;a href=&quot;#1-原理理解&quot; class=&quot;headerlink&quot; title=&quot;1.原理理解&quot;&gt;&lt;/a&gt;1.原理理解&lt;/h3&gt;&lt;h5 id=&quot;1-1-滤波&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="人工智能与脑认知" scheme="https://leohu.me/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E8%84%91%E8%AE%A4%E7%9F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NLP_week3</title>
-    <link href="https://leohu.me/2020/04/23/NLP_week3/"/>
-    <id>https://leohu.me/2020/04/23/NLP_week3/</id>
-    <published>2020-04-23T00:50:31.192Z</published>
-    <updated>2020-05-24T00:46:13.504Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-准备&quot;&gt;&lt;a href=&quot;#1-准备&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="nlp" scheme="https://leohu.me/tags/nlp/"/>
     
   </entry>
   
