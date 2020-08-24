@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="zh-CN"><!--
+             -. .                                        
+       _____   ',' ,                                    
+     ,'     ,'   ', ',                                  
+   ,'     ,'      |  |                                  
+   \       \       |  |                                  
+     \ /^\   \    ,' ,'                                  
+           \   \ ,' ,'      L'Internationale,            
+     / ~-.___\.-'  ,'            Sera le genre humain.   
+   /   .______.- ~ \                                     
+ /   /'          \   \                                   
+ \./               \/'                                   
+                                                         
+--><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Jlthzy"><title>v2boad对接soga后端 · Jlthzy's Blog</title><meta name="description" content="1.创建节点此步骤在v2board前端页面进行操作，注意如果使用ws一定要配置path
+123&amp;#123;  &amp;quot;path&amp;quot;: &amp;quot;&amp;#x2F;&amp;quot;&amp;#125;
+
+
+
+2.同步节点服务器时间Centos7
+1234yum install -y ntpsystemct"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style-dark.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/valine.min.js"></script><meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><span class="donate-address">唯一指定邮箱：Jlthzy123@gmail.com</span><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">当我拥着光亮 ⭐ 环着希望</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">就是这样 </a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/archives/index.html"></a></li><li><a href="/abouts/index.html">关于</a></li><li><a href="/categories/index.html"></a></li><li><a href="/tags/index.html"></a></li><li class="soc"><a href="https://github.com/jlthzy1015" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a><a href="https://twitter.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp;</i></a><a href="https://www.instagram.com/xxxxx" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><h1 class="post-title">v2boad对接soga后端</h1><p class="post-meta"><span class="date meta-item">发布于&nbsp;2020-08-24</span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a href="/tags/see-the-world/" title="see the world" class="a-tag">see the world</a><span>&nbsp;</span></span></p><p class="post-abstract"><h3 id="1-创建节点"><a href="#1-创建节点" class="headerlink" title="1.创建节点"></a>1.创建节点</h3><p>此步骤在v2board前端页面进行操作，注意如果使用ws一定要配置path</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;path&quot;: &quot;&#x2F;&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-同步节点服务器时间"><a href="#2-同步节点服务器时间" class="headerlink" title="2.同步节点服务器时间"></a>2.同步节点服务器时间</h3><p>Centos7</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yum install -y ntp</span><br><span class="line">systemctl enable ntpd</span><br><span class="line">ntpdate -q 0.rhel.pool.ntp.org</span><br><span class="line">systemctl restart ntpd</span><br></pre></td></tr></table></figure>
+
+<p>Debian</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get install -y ntp</span><br><span class="line">systemctl enable ntp</span><br><span class="line">systemctl restart ntp</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-一键安装soga"><a href="#3-一键安装soga" class="headerlink" title="3.一键安装soga"></a>3.一键安装soga</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls https:&#x2F;&#x2F;blog.sprov.xyz&#x2F;soga.sh)</span><br><span class="line"></span><br><span class="line">or两者都可</span><br><span class="line"></span><br><span class="line">bash &lt;(curl -Ls https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;sprov065&#x2F;soga&#x2F;master&#x2F;install.sh)</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="4-配置soga"><a href="#4-配置soga" class="headerlink" title="4.配置soga"></a>4.配置soga</h3><p>配置文件位置在 <strong>/etc/soga/soga.conf</strong></p>
+<p>可以使用FinalShell直接操作，不必使用vi命令</p>
+<h4 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"># 请按照对应教程进行配置：https:&#x2F;&#x2F;github.com&#x2F;sprov065&#x2F;soga&#x2F;wiki</span><br><span class="line"></span><br><span class="line">type&#x3D;v2board </span><br><span class="line">server_type&#x3D;v2ray</span><br><span class="line">api&#x3D;webapi</span><br><span class="line"></span><br><span class="line">webapi_url&#x3D;https:&#x2F;&#x2F;v2.dejavu.live&#x2F;</span><br><span class="line">webapi_mukey&#x3D;bvndlfkjnHjkh7812kgjh</span><br><span class="line"></span><br><span class="line">db_host&#x3D;103.135.100.50  #填写前端服务器ip地址</span><br><span class="line">db_port&#x3D;3306     #mysql数据库默认端口</span><br><span class="line">db_name&#x3D;v2_dejavu_live</span><br><span class="line">db_user&#x3D;v2_dejavu_live</span><br><span class="line">db_password&#x3D;yZhzYrzjtHb3RfKi</span><br><span class="line"></span><br><span class="line">node_id&#x3D;6    #节点id必写</span><br><span class="line">soga_key&#x3D;</span><br><span class="line"></span><br><span class="line">cert_file&#x3D;&#x2F;etc&#x2F;v2-ui&#x2F;full_chain.pem   #证书</span><br><span class="line">key_file&#x3D;&#x2F;etc&#x2F;v2-ui&#x2F;private.key    #密钥</span><br><span class="line"></span><br><span class="line">user_conn_limit&#x3D;0           # 限制用户连接数，0代表无限制，v2board 必填！！！</span><br><span class="line">user_speed_limit&#x3D;100        # 用户限速，0代表无限制，单位 Mbps，v2board 必填！！！</span><br><span class="line">check_interval&#x3D;200          # 同步前端用户、上报服务器信息等间隔时间（秒），近似值</span><br><span class="line"></span><br><span class="line">force_close_ssl&#x3D;false       # 设为true可强制关闭tls，即使前端开启tls，soga也不会开启tls，方便用户自行使用nginx、caddy等反代</span><br><span class="line">forbidden_bit_torrent&#x3D;true   # 设为true可禁用bt下载</span><br><span class="line"></span><br><span class="line">default_dns&#x3D;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="5-启动soga即可"><a href="#5-启动soga即可" class="headerlink" title="5.启动soga即可"></a>5.启动soga即可</h3><p>非常简单</p>
+</p></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2020/08/12/%E5%86%B7%E6%88%98%E5%90%8E%E7%9A%84%E4%BA%94%E4%B8%AA%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F%EF%BC%88%E4%B8%8B%EF%BC%89/" title="冷战后的五个战略机遇期（下）">下一篇: 冷战后的五个战略机遇期（下）&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div><a id="comments"></a><div id="valine-container"></div><script>(function(){
+    if(typeof Valine !== 'undefined'){
+        new Valine({
+            el:'#valine-container',
+            appId: '4BnPmxhNaSW5zalGBEpEWBkU-gzGzoHsz',
+            appKey: 'J0kuzWw1GHsnqBOrvRjYGUjL',
+            path: window.location.pathname
+        })
+    }
+}())
+</script></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://leohu.me" rel="noopener noreferrer">Jlthzy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.min.js"></script></body></html>
